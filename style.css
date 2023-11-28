@@ -1,0 +1,62 @@
+div {
+    padding: 1em;
+    max-width: 100%;
+  }
+  .container {
+    display: grid;
+    place-items: center;
+    height: 8em;
+  }
+  
+  .item h1 {
+    color: rgb(4, 13, 48); 
+}
+
+
+
+  .input {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This will vertically center the items */
+}
+
+.input input,
+.input button {
+    margin: 0 5px; /* This adds a small space between the input and the button */
+}
+
+/* Style the button (optional) */
+.input button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the list items */
+ul#list {
+  list-style-type: none; /* Remove default list item styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style the list item */
+ul#list li {
+  padding: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the delete button */
+ul#list li button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+
+  
